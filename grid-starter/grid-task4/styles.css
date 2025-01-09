@@ -1,0 +1,40 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.grid > div {
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+  
+
+.one {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+.two {
+    grid-row: 2 / 3;
+    grid-row: 2;
+}
+
+.three {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.four {
+    grid-column: 2 / 4;
+}
