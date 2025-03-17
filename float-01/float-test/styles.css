@@ -1,0 +1,66 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+/* .float {
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.float1 {
+    float: left;
+    margin-top: 10px;
+}
+
+.float2 {
+    float: left;
+    margin-top: 10px;
+}
+
+.clear {
+    clear: left;
+} */
+
+
+
+/* .float {
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.below {
+    clear: left;
+} */
+
+
+.float {
+    float: right;
+    width: 150px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+p {
+    /* background-color: purple; */
+    padding: 10px;
+    border-radius: 5px;
+}
+.box {
+    margin-top: 20px;
+    background-color: purple;
+    display: flow-root;
+    border-radius: 5px;
+}
